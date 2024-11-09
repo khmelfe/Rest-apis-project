@@ -1,0 +1,11 @@
+#File to tell what we need to run this project.
+#"pip install -r requirements.txt" -> great way to install all at once.
+flask
+flask-smorest
+python-dotenv
+sqlalchemy
+flask-sqlalchemy
+flask-jwt-extended
+#libary that will make the passwords hash so will be hard to read them in plain test
+passlib
+flask-migrate #connection between almbic and flask.

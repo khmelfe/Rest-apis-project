@@ -1,0 +1,12 @@
+#composing few dockers togther.
+#. -> means the build file is in the current dic
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "5005:5000"
+    volumes:
+      - .:/app
+
+#https://stackoverflow.com/questions/36884991/how-to-rebuild-docker-container-in-docker-compose-yml/50802581#50802581
